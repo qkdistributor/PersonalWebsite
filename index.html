@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jefrey Bergl - Undergraduate Researcher at UNC Chapel Hill">
+  <meta name="author" content="Jefrey Bergl">
+  <title>Jefrey Bergl</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Main Content -->
+  <main class="container">
+
+    <!-- Profile Section -->
+    <section class="profile-section">
+      <div class="profile-container">
+        <div class="profile-image">
+          <img src="assets/images/headshot.jpg" alt="Jefrey Bergl" class="headshot">
+        </div>
+        <div class="profile-content">
+          <h1 class="profile-name">Jefrey Bergl</h1>
+
+          <p class="profile-bio">
+            I am an undergraduate student at the <a href="https://college.unc.edu/" target="_blank">University of North Carolina at Chapel Hill</a>,
+            where I study Computer Science and Applied Math.
+          </p>
+
+          <p class="profile-bio">
+            I am broadly interested in <strong>time series analysis</strong>, <strong>multimodal reasoning</strong>,
+            <strong>simulation</strong>, and <strong>interpretability</strong>. I'm currently working with adversarial attacks
+            on time series forecasting models.
+          </p>
+
+          <p class="profile-bio">
+            I also enjoy playing guitar, tennis, rock climbing, and cooking.
+          </p>
+
+          <!-- Contact Links -->
+          <div class="contact-links">
+            <a href="mailto:jbergl@unc.edu">Email</a> /
+            <a href="assets/resumeNov25.pdf" target="_blank">CV</a> /
+            <a href="https://github.com/qkdistributor" target="_blank">Github</a> /
+            <a href="https://www.linkedin.com/in/jefreybergl314" target="_blank">LinkedIn</a> /
+            <a href="https://x.com/qkdistributor1" target="_blank">Twitter</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="section">
+      <h2 class="section-title">News</h2>
+      <ul class="news-list-vertical">
+        <li>
+          <strong>Oct 2025:</strong> Released a preprint! arXiv: <a href="https://arxiv.org/abs/2510.18990" target="_blank">The Black Tuesday Attack: how to crash the stock market with adversarial attacks to financial forecasting models</a>
+        </li>
+        <li>
+          <strong>May 2025:</strong> Completed project analyzing Vision Transformer performance in real world use cases [<a href="https://drive.google.com/file/d/1pDFAlfCgygF0m94B9xhhYrKzUEZAEjkT/view?usp=sharing" target="_blank">poster</a>].
+        </li>
+        <li>
+          <strong>April 2025:</strong> Selected as a spotlight speaker at <a href="https://www.ai-unc.com/events/io" target="_blank">AI@UNC I/O</a> for my work on adversarial attacks on financial forecasting models [<a href="https://drive.google.com/file/d/1wtKcK2hbIyacfg8mf0JP0TJNtrU2I4Q9/view?usp=sharing" target="_blank">slides</a>]
+        </li>
+        <li>
+          <strong>Dec 2024:</strong> Completed a project building a lightweight CNN for brain tumor detection in MRIs [<a href="https://github.com/TrippWhaley/comp-562-final-project/tree/main" target="_blank">Github</a>].
+        </li>
+        <li>
+          <strong>Oct 2024:</strong> Beginning work on adversarial attacks on financial forecasting models with Prof. <a href="https://thomashofweber.com/" target="_blank">Thomas Hofweber</a>
+        </li>
+      </ul>
+    </section>
+
+<section class="section">
+  <h2 class="section-title">Publications + Preprints</h2>
+  <ul class="publications-list-vertical">
+    <li>
+      <strong>Oct 2025:</strong>
+      Thomas Hofweber, <b>Jefrey Bergl</b>, Ian Reyes, Amir Sadovnik.
+      <em>The Black Tuesday Attack: How to Crash the Stock Market With Adversarial Attacks to Financial Forecasting Models.</em>
+      Submitted to <em>The Journal of Cybersecurity</em>, 2025. arXiv:
+      <a href="https://arxiv.org/abs/2510.18990" target="_blank">arxiv.org/abs/2510.18990</a>
+    </li>
+  </ul>
+</section>
+
+<section class="section">
+  <h2 class="section-title">Projects</h2>
+  <ul class="projects-list-vertical">
+    <li class="project-item">
+
+      <!-- Vision Transformer project -->
+      <div class="project-content">
+        <div class="project-header">
+          <strong>May 2025: Evaluating Vision Transformer Behavior in Real-World Settings</strong>
+          <span class="project-tech">
+            &nbsp;|&nbsp;
+            <em>Technologies: Python, PyTorch, HuggingFace Transformers, OpenAI CLIP, BLIP, TimeSformer</em>
+          </span>
+        </div>
+
+        <div class="project-details">
+          Investigated real-world performance of five Vision Transformer models across 30 diverse images and videos.
+          Built an evaluation pipeline for classification, captioning, and VQA outputs, and identified characteristic
+          failure patterns including CLIP’s rare-class sensitivity, TimeSformer’s occlusion issues, BLIP’s generic
+          caption drift, ViLT’s perspective illusions, and ViT age-misprediction under makeup/domain shift.
+          Poster:
+          <a href="https://drive.google.com/file/d/1pDFAlfCgygF0m94B9xhhYrKzUEZAEjkT/view?usp=sharing"
+             target="_blank" rel="noopener noreferrer">
+            ViT Evaluation Poster
+          </a>
+        </div>
+      </div>
+
+      <!-- CNN brain tumor project -->
+      <div class="project-content" style="margin-top: 1.5rem;">
+        <div class="project-header">
+          <strong>Dec 2024: Cost-Effective Brain Tumor Detection with CNNs</strong>
+          <span class="project-tech">
+            &nbsp;|&nbsp;
+            <em>Technologies: Python, TensorFlow/Keras, scikit-learn, NumPy, Pandas, Matplotlib</em>
+          </span>
+        </div>
+
+        <div class="project-details">
+          Built a low-parameter CNN to classify grayscale brain MRI scans with an emphasis on minimizing false negatives.
+          Implemented a 3-block CNN with augmentation and hyperparameter tuning. Achieved Accuracy ≈ 0.85 and F1 ≈ 0.87,
+          compared to VGG-16 (0.93/0.93) and ResNet-50 (0.86/0.87), reducing false negatives while remaining significantly
+          smaller and cheaper to deploy.
+          Code:
+          <a href="https://github.com/TrippWhaley/comp-562-final-project/"
+             target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+        </div>
+      </div>
+
+    </li>
+  </ul>
+</section>
+
+<section class="section">
+  <h2 class="section-title">Presentations</h2>
+  <ul class="presentations-list-vertical">
+
+    <li>
+      <strong>April 2025:</strong>
+      <em>AI@UNC — “Adversarial Attacks on Financial Forecasting Models”</em>
+      [<a href="https://drive.google.com/file/d/1wtKcK2hbIyacfg8mf0JP0TJNtrU2I4Q9/view?usp=sharing"
+          target="_blank" rel="noopener noreferrer">slides</a>].
+      <span class="presentation-meta">
+        <br>Selected for Spotlight Presentation
+      </span>
+    </li>
+
+  </ul>
+</section>
+
+
+  </main>
+
+  <!-- JavaScript -->
+  <script src="main.js"></script>
+</body>
+</html>
